@@ -1,0 +1,16 @@
++ traerCliente(long dni): Cliente
++ agregarCliente(String nombre, String apellido, String email, long dni) : boolean
++ traerCliente(int idCliente): Cliente
++ traerProducto(String nombre): Producto
++ agregarProducto(String nombre, double precio, String unidadDeMedida, double pesosPorKms) : boolean 
++ agregarTarjeta(Cliente cliente): boolean
++ calcularKms(): int
++ traerTarjeta(Cliente cliente): Tarjeta
++ agregarCompra(Cliente cliente, Producto producto, GregorianCalendar fechaHora, double cantidad): boolean
++ traerCompras(Cliente cliente): List<Compra>
++ traerCompras(GregorianCalendar desde, GregorianCalendar hasta): List<Compra>
++ traerCompras(Cliente cliente, GregorianCalendar desde, GregorianCalendar hasta): List<Compra>
++ traerCompras(Producto producto): List<Compra>
++ traerCompras(Producto producto, GregorianCalendar desde, GregorianCalendar hasta): List<Compra>
++ traerCantidadVendida(Producto producto): double
++ traerTotalDeVentas(Producto producto): double
